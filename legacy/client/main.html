@@ -1,0 +1,16 @@
+<head>
+  <title>legacy</title>
+</head>
+<body>
+  <h1>Simple legacy pages</h1>
+  <a href="/">***** / *****</a>
+  <br /><br />
+  <a href="/page1">*** page1 ***</a>
+  <br /><br />
+  <a href="/page2">*** page2 ***</a>
+  {{> main}}
+</body>
+<template name="main">
+  {{> Template.dynamic template=page1}}
+  {{> Template.dynamic template=page2}}
+</template>

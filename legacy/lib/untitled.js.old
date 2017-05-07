@@ -1,0 +1,25 @@
+FlowRouter.route( '/', {
+  action: function() {
+    // Do whatever
+    //console.log( "route for the path /" );
+  },
+  //name: 'rootRoute' // Optional route name.
+});
+
+FlowRouter.route( '/page1', {
+  action: function() {
+    //BlazeLayout.render( 'page1', { main: 'page1Route' } );
+    BlazeLayout.render( 'page1' );
+    //console.log( "route for the /page1" );
+  },
+  //name: 'page1Route' // Optional route name.
+});
+
+FlowRouter.route( '/page2', {
+  action: function() {
+    //BlazeLayout.render( 'page2', { main: 'page2Route' } );
+    BlazeLayout.render( 'page2' );
+    //console.log( "route for the /page2" );
+  },
+  //name: 'page2Route' // Optional route name.
+});
