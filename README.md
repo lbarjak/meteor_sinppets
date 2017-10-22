@@ -1,2 +1,2 @@
-# meteor_sinppets
+# meteor_snippets
 Meteor snippets
